@@ -1,0 +1,4 @@
+baseURL = "https://andrewpjackson.com/"
+languageCode = "en-us"
+title = "andrewpjackson.com"
+canonifyURLs = true
