@@ -1,4 +1,5 @@
 baseURL = "https://andrewpjackson.com/"
 languageCode = "en-us"
 title = "andrewpjackson.com"
+googleAnalytics = "UA-60119459-2"
 canonifyURLs = true
