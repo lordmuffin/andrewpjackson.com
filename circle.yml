@@ -7,7 +7,7 @@ machine:
 
 dependencies:
   pre:
-    - bash ./ci-install-hugo.sh
+    - ./ci-install-hugo.sh
     - go get -v github.com/JacksonConsulting/s3up
   cache_directories:
     - bin
