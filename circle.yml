@@ -8,7 +8,7 @@ machine:
 dependencies:
   pre:
     - bash ./ci-install-hugo.sh
-    - go get -v github.com/JacksonConsulting/s3up
+    # - go get -v github.com/JacksonConsulting/s3up
   cache_directories:
     - bin
 
@@ -19,4 +19,4 @@ deployment:
   s3up:
     branch: master
     commands:
-      - s3up -source=public/ -bucket=$BUCKET
+      - aws s3 sync public/ s3://$BUCKET --delete
