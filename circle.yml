@@ -9,12 +9,12 @@ dependencies:
   pre:
     - bash ./ci-install-hugo.sh
     # - go get -v github.com/JacksonConsulting/s3up
+    - git clone https://github.com/halogenica/beautifulhugo.git ~/themes/beautifulhugo
   cache_directories:
     - bin
 
 test:
   override:
-    - git clone https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
     - GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
     - hugo -v -t beautifulhugo
 deployment:
