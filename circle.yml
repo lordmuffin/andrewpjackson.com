@@ -9,6 +9,8 @@ dependencies:
   pre:
     - bash ./ci-install-hugo.sh
     # - go get -v github.com/JacksonConsulting/s3up
+    - mkdir public/themes
+    - git clone https://github.com/halogenica/beautifulhugo.git public/themes/beautifulhugo
   cache_directories:
     - bin
 
