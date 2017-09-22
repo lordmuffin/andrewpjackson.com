@@ -16,7 +16,8 @@ test:
   override:
     - mkdir public
     - git clone https://github.com/halogenica/beautifulhugo.git public/themes/beautifulhugo
-    - hugo -v -t ./public/themes/beautifulhugo
+    - cd public
+    - hugo -v -t beautifulhugo
 deployment:
   s3up:
     branch: master
