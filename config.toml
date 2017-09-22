@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "andrewpjackson.com"
 googleAnalytics = "UA-60119459-2"
 canonifyURLs = true
+[Params]
+  commit = "https://github.com/<username>/<siterepo>/tree/"
