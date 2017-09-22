@@ -14,9 +14,9 @@ dependencies:
 
 test:
   override:
-    - mkdir public/themes
+    - mkdir public
     - git clone https://github.com/halogenica/beautifulhugo.git public/themes/beautifulhugo
-    - hugo -v -t public/themes/beautifulhugo
+    - hugo -v -t ./public/themes/beautifulhugo
 deployment:
   s3up:
     branch: master
