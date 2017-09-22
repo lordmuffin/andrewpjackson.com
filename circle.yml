@@ -9,7 +9,6 @@ dependencies:
   pre:
     - bash ./ci-install-hugo.sh
     # - go get -v github.com/JacksonConsulting/s3up
-    - hugo -v
   cache_directories:
     - bin
 
@@ -17,7 +16,7 @@ test:
   override:
     - mkdir public/themes
     - git clone https://github.com/halogenica/beautifulhugo.git public/themes/beautifulhugo
-    - hugo -v -t beautifulhugo
+    - hugo -v -t public/themes/beautifulhugo
 deployment:
   s3up:
     branch: master
