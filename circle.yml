@@ -1,7 +1,7 @@
 machine:
   environment:
     CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
-    PATH: $PATH:$CIRCLE_BUILD_DIR/bin
+    PATH: '$PATH:$CIRCLE_BUILD_DIR/bin:/home/ubuntu/go/bin:$PATH'
     GOPATH: /home/ubuntu/go
     ROOTPATH: /home/ubuntu/go/src/andrewpjackson.com/bin
 
@@ -13,6 +13,7 @@ checkout:
     - cp -r "/home/ubuntu/$(basename $ROOTPATH)" $(dirname $ROOTPATH)
 dependencies:
   pre:
+    - go get github.com/kardianos/govendor
     # - bash ./ci-install-hugo.sh
     - go get github.com/kardianos/govendor
     - govendor get github.com/gohugoio/hugo
@@ -20,6 +21,9 @@ dependencies:
     # - go get -v github.com/JacksonConsulting/s3up
     - git clone https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
     - git clone https://github.com/tomanistor/osprey.git themes/osprey
+  override:
+    - cd $ROOTPATH && govendor sync
+
   cache_directories:
     - bin
 test:
