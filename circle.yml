@@ -3,11 +3,15 @@ machine:
     CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
     PATH: $PATH:$CIRCLE_BUILD_DIR/bin
     GOPATH: /home/ubuntu/go
-    ROOTPATH: /home/ubuntu/go/src/{source-code-path}
+    ROOTPATH: /home/ubuntu/go/src/namespace/project
 
   post:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
 checkout:
+  pre:
+    - echo $PWD
+    - ls
+    - ls /home/ubuntu
   post:
     - mkdir -p $ROOTPATH
     - cp -r "/home/ubuntu/$(basename $ROOTPATH)" $(dirname $ROOTPATH)
