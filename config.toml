@@ -1,27 +1,27 @@
-title = "Andrew P Jackson"
-baseURL = "https://andrewpjackson.com"
-tags = ["portfolio", "devops", "blog", "automation"]
+title = "Osprey Example Site"
+baseURL = "https://tomanistor.com"
+tags = ["portfolio", "web design", "blog"]
 languageCode = "en-US"
 config = "config.toml"
 theme = "osprey"
 canonifyURLS = true
 googleAnalytics = ""
-disqusShortname = "lordmuffin"
+disqusShortname = "tomanistor"
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
 [Params]
     tagline = "Osprey Example Site"
-    author = "Andrew Jackson"
-    description = "Full-stack DevOps Engineer based in Minneapolis, MN."
+    author = "Toma Nistor"
+    description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
     logoBig = "/images/osprey-logo.png"
     logoSmall = "/images/osprey-logo.png"
     favicon = "favicon.ico"
     opengraphImage = "/images/osprey.png"
-    twitter = "andrewpjackson"
-    linkedin = ""
-    github = "lordmuffin"
+    twitter = "TomaNistor"
+    linkedin = "tomanistor"
+    github = "tomanistor"
     email = ""
-    googleTagManager = ""
+    googleTagManger = ""
     highlightJS = true
     copyright = true
     credit = true
