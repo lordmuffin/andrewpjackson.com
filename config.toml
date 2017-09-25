@@ -30,8 +30,8 @@ pygmentCodeFences = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Andrew Jackson"
-  website = "andrewpjackson.com"
+  name = ""
+  website = ""
   email = "me@andrewpjackson.com"
   # facebook = "username"
   # googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
