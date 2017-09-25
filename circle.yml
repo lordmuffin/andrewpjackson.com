@@ -6,7 +6,8 @@ machine:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
 dependencies:
   pre:
-    - bash ./ci-install-hugo.sh
+    # - bash ./ci-install-hugo.sh
+    - go get -u -v github.com/gohugoio/hugo
     # - go get -v github.com/JacksonConsulting/s3up
     - git clone https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
     - git clone https://github.com/tomanistor/osprey.git themes/osprey
