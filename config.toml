@@ -1,8 +1,48 @@
-baseURL = "https://andrewpjackson.com/"
-languageCode = "en-us"
-title = "andrewpjackson.com"
-googleAnalytics = "UA-60119459-2"
-canonifyURLs = true
+title = "Andrew P Jackson"
+baseURL = "https://andrewpjackson.com"
+tags = ["portfolio", "devops", "blog", "automation"]
+languageCode = "en-US"
+config = "config.toml"
 theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "lordmuffin"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
 [Params]
-  commit = "https://github.com/<username>/<siterepo>/tree/"
+    tagline = "Osprey Example Site"
+    author = "Andrew Jackson"
+    description = "Full-stack DevOps Engineer based in Minneapolis, MN."
+    logoBig = "/images/osprey-logo.png"
+    logoSmall = "/images/osprey-logo.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    twitter = "andrewpjackson"
+    linkedin = ""
+    github = "lordmuffin"
+    email = ""
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = true
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 4
