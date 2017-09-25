@@ -10,7 +10,7 @@ pygmentCodeFences = true
 #googleAnalytics = "XXX"
 
 [Params]
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "A DevOps Engineer specializing in cloud automation, working out of Minneapolis, MN."
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
