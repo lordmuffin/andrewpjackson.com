@@ -21,15 +21,13 @@ dependencies:
     # - go get -v github.com/JacksonConsulting/s3up
     - git clone https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
     - git clone https://github.com/tomanistor/osprey.git themes/osprey
-  override:
-    - cd $ROOTPATH && govendor sync
 
   cache_directories:
     - bin
 test:
   override:
     - GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`
-    - hugo -v -t osprey
+    - hugo -v -t beautifulhugo
 deployment:
   s3up:
     branch: master
