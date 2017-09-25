@@ -7,6 +7,10 @@ machine:
 
   post:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
+checkout:
+  post:
+    - mkdir -p $ROOTPATH
+    - cp -r "/home/ubuntu/$(basename $ROOTPATH)" $(dirname $ROOTPATH)
 dependencies:
   pre:
     # - bash ./ci-install-hugo.sh
