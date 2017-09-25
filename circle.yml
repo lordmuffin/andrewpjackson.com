@@ -2,11 +2,16 @@ machine:
   environment:
     CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
     PATH: $PATH:$CIRCLE_BUILD_DIR/bin
+    GOPATH: /home/ubuntu/go
+    ROOTPATH: /home/ubuntu/go/src/{source-code-path}
+
   post:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
 dependencies:
   pre:
     # - bash ./ci-install-hugo.sh
+    - go get github.com/kardianos/govendor
+    - govendor get github.com/gohugoio/hugo
     - go install github.com/gohugoio/hugo
     # - go get -v github.com/JacksonConsulting/s3up
     - git clone https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
