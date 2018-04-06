@@ -14,6 +14,7 @@ fields:
 - type: text
   label: Header
   name: header
+  default: Default Page Title
 - type: text
   name: group
   label: group
