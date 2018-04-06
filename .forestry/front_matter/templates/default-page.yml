@@ -1,0 +1,14 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: Layout
+  default: page
+- type: text
+  label: title
+  name: title
+  default: Default Page Title
+- type: text
+  label: Tagline
+  name: tagline
