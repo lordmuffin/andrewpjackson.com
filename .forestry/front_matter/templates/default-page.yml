@@ -14,3 +14,7 @@ fields:
 - type: text
   label: Tagline
   name: tagline
+- type: text
+  name: group
+  label: group
+  default: navigation
