@@ -2,4 +2,6 @@
 title: Resume
 layout: page
 date: 2018-04-06 21:00:04 +0000
+tagline: ''
 ---
+This is my resume page.
