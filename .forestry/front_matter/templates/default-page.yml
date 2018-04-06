@@ -12,8 +12,8 @@ fields:
   name: title
   default: Default Page Title
 - type: text
-  label: Tagline
-  name: tagline
+  label: Header
+  name: header
 - type: text
   name: group
   label: group
