@@ -1,7 +1,7 @@
 # Site Settings
 title: My Resume
 url: 'http://webjeda.com'
-baseurl: '/andrewpjackson.com' #change it according to your repository name
+baseurl: '/' #change it according to your repository name
 about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
 
 
@@ -14,8 +14,8 @@ about: True # set to False or comment line if you want to remove the "How to use
 
 
 #Profile information
-name: Alan Doe
-tagline: Full Stack Developer
+name: Andrew Jackson
+tagline: Senior Devops Engineer
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 You can <a href="#" target="_blank">download this free resume/CV template here</a>. Aenean
