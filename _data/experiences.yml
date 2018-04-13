@@ -2,25 +2,26 @@
   role: Senior DevOps Engineer
   time: May 2017 - Present
   company: Entrust Datacard, Shakopee MN
-  details: "DevOps (75%)
+  details: "
+    DevOps (75%) <br >
 
-- Design and deploy, in an Agile (Scrum) environment, assets and code that will help, deploy, test, monitor and maintain components and services for next generation service platforms.
-- Lead day-to-day operational support activities for services developed using the DevOps practice.
-- Establish standards and repeatable processes for managing change across environments, taking advantage of innovative cloud technologies, DevOps tools and practices.
-- Assist with transition of colleagues and services from a legacy operating model to cloud operating model.
-- Apply knowledge of various programming/scripting languages including Python, bash. Support best practices and configuration management to support and maintain services.
-- Use various Technical tools to develop/deliver CI/CD process. Jenkins, Octopus, Ansible, CloudFormation.
-- Build operational documentation from existing service architectures and standards.
-- Participate in the service on-call rotation providing 24/7 incident response.
-- Support various cloud environments, primarily in AWS.
+    - Design and deploy, in an Agile (Scrum) environment, assets and code that will help, deploy, test, monitor and maintain components and services for next generation service platforms.
+    - Lead day-to-day operational support activities for services developed using the DevOps practice.
+    - Establish standards and repeatable processes for managing change across environments, taking advantage of innovative cloud technologies, DevOps tools and practices.
+    - Assist with transition of colleagues and services from a legacy operating model to cloud operating model.
+    - Apply knowledge of various programming/scripting languages including Python, bash. Support best practices and configuration management to support and maintain services.
+    - Use various Technical tools to develop/deliver CI/CD process. Jenkins, Octopus, Ansible, CloudFormation.
+    - Build operational documentation from existing service architectures and standards.
+    - Participate in the service on-call rotation providing 24/7 incident response.
+    - Support various cloud environments, primarily in AWS.
 
-Process (25%)
+    Process (25%)
 
-- Collaborate across all verticals within the organization using Agile methodologies and processes.
-- Develop plans and strategies, influence technology roadmaps for SaaS and PaaS solutions across public and hybrid delivery models with a global perspective in mind.
-- Use creative and innovative approaches to solve problems.
-- Effectively lead and motivate teams through significant change.
-- Embrace a start-up mentality."
+    - Collaborate across all verticals within the organization using Agile methodologies and processes.
+    - Develop plans and strategies, influence technology roadmaps for SaaS and PaaS solutions across public and hybrid delivery models with a global perspective in mind.
+    - Use creative and innovative approaches to solve problems.
+    - Effectively lead and motivate teams through significant change.
+    - Embrace a start-up mentality."
 - experience:
   role: Senior Systems Engineer
   time: December 2014 - May 2017
@@ -28,15 +29,15 @@ Process (25%)
   details: "The IT Systems Engineer is responsible for the planning and engineering of Entrust Datacard systems infrastructure. This includes the implementation and deployment of hardware and software as well as monitoring the performance of systems. The IT Systems Engineer will design, analyze, evaluate, test, and implement applications and Infrastructure systems in support of our long term revenue growth goals.
 
 Responsibilities:
-• Manage Office 365 deployment for 2000+ users.
-• Plan, configure and maintain Cisco UCS platforms.
-• Plan, configure and maintain multiple VMware clusters between 5.x and 6.x
-• Plan, configure and maintain VMware Horizon View environment for 200+ desktops
-• Install and maintain Windows 2003/2008/2012 (including R2) servers
-• Administer enterprise backup clients for managed systems (NetBackup)
-• Administer and maintain Exchange Server 2010/2013 in an enterprise environment
-• Administer and maintain Microsoft Lync 2010/2013
-• Ability to plan, design and implement solutions (Exchange, Active Directory, Lync, VMware, UCS) in both local and wide-area network environments"
+- Manage Office 365 deployment for 2000+ users.
+- Plan, configure and maintain Cisco UCS platforms.
+- Plan, configure and maintain multiple VMware clusters between 5.x and 6.x
+- Plan, configure and maintain VMware Horizon View environment for 200+ desktops
+- Install and maintain Windows 2003/2008/2012 (including R2) servers
+- Administer enterprise backup clients for managed systems (NetBackup)
+- Administer and maintain Exchange Server 2010/2013 in an enterprise environment
+- Administer and maintain Microsoft Lync 2010/2013
+- Ability to plan, design and implement solutions (Exchange, Active Directory, Lync, VMware, UCS) in both local and wide-area network environments"
 - experience:
   role: Systems Administrator
   time: April 2014 - December 2014
@@ -48,21 +49,21 @@ Accountability for the following systems: Linux and Windows systems that support
   role: Systems Administrator
   time: February 2012 - April 2014
   company: Smith Micro Technologies, Saint Paul MN
-  details: "• Participating in the evaluation, development, and implementation of security standards, procedures, and guidelines for multiple platforms and diverse systems environments.
-• Designing network vulnerability scans and providing remediation alternatives.
-• Developing specifications for complex network security and protection technologies for company information and network systems and applications.
-• Identifying emerging vulnerabilities and evaluating associated risks and threats.
-• Encrypt data transmissions and erect firewalls to conceal confidential information as it is being transmitted and to keep out tainted digital transfers.
-• Perform risk assessments and execute tests of data processing system to ensure functioning of data processing activities and security measures.
-• Confer with users to discuss issues such as computer data access needs, security violations, and programming changes.
-• Train users and promote security awareness to ensure system security and to improve server and network efficiency.
-• Coordinate implementation of computer system plan with establishment personnel and outside vendors.
-• Installation, configuration and administration of SharePoint Environments.
-• Work in partnership with clients, advising them how to use IT in order to create solutions and meet their business objectives.
-• Partner with clients to improve overall structure and efficiency of infrastructure IT systems.
-• Provide strategic guidance to organizations in regard to technologies.
-• Deploying and Managing SharePoint Applications.
-• Installation, configuration and administration of: Exchange 2003/2007/2010/2013, Office 365, SQL Server 2005/2008, Server 2000/2003/2008/2012, WSUS, backup exec 2012, MobileEcho, Trend Micro Business Security, and WatchGuard Firewalls.
-• System monitoring and remote support with Kaseya.
-• Installation, configuration and administration of virtual environments with Hyper-V
-• Service administration using PowerShell."
+  details: "- Participating in the evaluation, development, and implementation of security standards, procedures, and guidelines for multiple platforms and diverse systems environments.
+- Designing network vulnerability scans and providing remediation alternatives.
+- Developing specifications for complex network security and protection technologies for company information and network systems and applications.
+- Identifying emerging vulnerabilities and evaluating associated risks and threats.
+- Encrypt data transmissions and erect firewalls to conceal confidential information as it is being transmitted and to keep out tainted digital transfers.
+- Perform risk assessments and execute tests of data processing system to ensure functioning of data processing activities and security measures.
+- Confer with users to discuss issues such as computer data access needs, security violations, and programming changes.
+- Train users and promote security awareness to ensure system security and to improve server and network efficiency.
+- Coordinate implementation of computer system plan with establishment personnel and outside vendors.
+- Installation, configuration and administration of SharePoint Environments.
+- Work in partnership with clients, advising them how to use IT in order to create solutions and meet their business objectives.
+- Partner with clients to improve overall structure and efficiency of infrastructure IT systems.
+- Provide strategic guidance to organizations in regard to technologies.
+- Deploying and Managing SharePoint Applications.
+- Installation, configuration and administration of: Exchange 2003/2007/2010/2013, Office 365, SQL Server 2005/2008, Server 2000/2003/2008/2012, WSUS, backup exec 2012, MobileEcho, Trend Micro Business Security, and WatchGuard Firewalls.
+- System monitoring and remote support with Kaseya.
+- Installation, configuration and administration of virtual environments with Hyper-V
+- Service administration using PowerShell."
