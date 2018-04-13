@@ -4,23 +4,23 @@
   company: Entrust Datacard, Shakopee MN
   details: "
     DevOps (75%) <br >
-
-    - Design and deploy, in an Agile (Scrum) environment, assets and code that will help, deploy, test, monitor and maintain components and services for next generation service platforms.
-    - Lead day-to-day operational support activities for services developed using the DevOps practice.
-    - Establish standards and repeatable processes for managing change across environments, taking advantage of innovative cloud technologies, DevOps tools and practices.
-    - Assist with transition of colleagues and services from a legacy operating model to cloud operating model.
-    - Apply knowledge of various programming/scripting languages including Python, bash. Support best practices and configuration management to support and maintain services.
-    - Use various Technical tools to develop/deliver CI/CD process. Jenkins, Octopus, Ansible, CloudFormation.
-    - Build operational documentation from existing service architectures and standards.
-    - Participate in the service on-call rotation providing 24/7 incident response.
-    - Support various cloud environments, primarily in AWS.
-
-    Process (25%)
-
-    - Collaborate across all verticals within the organization using Agile methodologies and processes.
-    - Develop plans and strategies, influence technology roadmaps for SaaS and PaaS solutions across public and hybrid delivery models with a global perspective in mind.
-    - Use creative and innovative approaches to solve problems.
-    - Effectively lead and motivate teams through significant change.
+     <br >
+    - Design and deploy, in an Agile (Scrum) environment, assets and code that will help, deploy, test, monitor and maintain components and services for next generation service platforms. <br >
+    - Lead day-to-day operational support activities for services developed using the DevOps practice. <br >
+    - Establish standards and repeatable processes for managing change across environments, taking advantage of innovative cloud technologies, DevOps tools and practices. <br >
+    - Assist with transition of colleagues and services from a legacy operating model to cloud operating model. <br >
+    - Apply knowledge of various programming/scripting languages including Python, bash. Support best practices and configuration management to support and maintain services. <br >
+    - Use various Technical tools to develop/deliver CI/CD process. Jenkins, Octopus, Ansible, CloudFormation. <br >
+    - Build operational documentation from existing service architectures and standards. <br >
+    - Participate in the service on-call rotation providing 24/7 incident response. <br >
+    - Support various cloud environments, primarily in AWS. <br >
+     <br >
+    Process (25%) <br >
+     <br >
+    - Collaborate across all verticals within the organization using Agile methodologies and processes. <br >
+    - Develop plans and strategies, influence technology roadmaps for SaaS and PaaS solutions across public and hybrid delivery models with a global perspective in mind. <br >
+    - Use creative and innovative approaches to solve problems. <br >
+    - Effectively lead and motivate teams through significant change. <br >
     - Embrace a start-up mentality."
 - experience:
   role: Senior Systems Engineer
